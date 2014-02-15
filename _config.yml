@@ -1,0 +1,9 @@
+name: "JakeStandish_Site"
+description: "A site all about Technology and Learning"
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
