@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Why We Can't Learn
 ---
 <p>
@@ -12,6 +12,9 @@ Over time, the middle wall was removed providing a way out for the dog to escape
 Seligman discovered is that the dog <i> never got out of harms way.</i> 
 The dog had learned that the shocks were unavoidable and, as a result, gave up trying to avoid them.  
 </p>
+
+<!-—more—->
+
 <p>
 There is a lesson to be learned here in how we approach learning, educational programs, and social and political activities.  
 I don't think there is much need to elaborate on the sort of lessons we can learn from helplessness, just realize that when someone says that "I can't..." or "I'm not good at..." or any variant, it's because they got "shocked" too many times by someone or something that eventually told them to give up.    
