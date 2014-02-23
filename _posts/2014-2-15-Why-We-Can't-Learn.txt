@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Learned Helplessnes Is A Choice Once You Recognize It
+layout: default
+title: Learned Helplessness Is A Choice Once You Recognize It
 ---
 <p>
 Anyone faced with a seemingly insurmountable challenge has a choice, face the challenge with an equally naive optimism or simply give up.  
