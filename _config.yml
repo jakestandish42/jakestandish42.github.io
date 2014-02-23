@@ -8,4 +8,4 @@ paginate: 10
 markdown: rdiscount
 permalink: pretty
 
-excerpt_separator: <!--more-->
+excerpt_separator: '<!--more-->'

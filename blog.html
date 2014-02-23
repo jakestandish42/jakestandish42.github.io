@@ -1,16 +1,19 @@
 ---
-layout: justHome
+layout: post
 title: My Blog
 ---
 
 <div class="container-fluid">
 <div class="container-responsive">
-{% for post in site.posts %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <article>{{ post.excerpt }}</article>
-	<br>
-	<hr>
-	<br>
-{% endfor %}
+ {% for post in site.posts %}
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      	<p> {{ post.excerpt }}</p>
+      	<br>
+      	<hr>
+      	<br>
+  {% endfor %}
+
 </div>
 </div>
+
+
