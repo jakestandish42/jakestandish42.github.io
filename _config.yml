@@ -4,6 +4,7 @@ description: "A site all about Technology and Learning"
 url: "http://jakestandish42.github.io/"
 
 paginate: 10
+paginate_path: "blog/page:num"
 
 markdown: rdiscount
 permalink: pretty

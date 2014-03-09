@@ -1,0 +1,29 @@
+---
+title: We Are What We Pretend To Be
+layout: post
+---
+
+<h1>{{post.title}}</h1>
+<blockquote cite="http://www.goodreads.com/quotes/13719-we-are-what-we-pretend-to-be-so-we-must#">We are what we pretend to be, so we must be careful about what we pretend to be.<footer>Kurt Vonnegut</footer></blockquote>
+<p>
+This advice has been in my head a lot lately.  It is a lesson I'm learning on a personal level as well as professionally.  As an adult, the concept of pretending is often dramatically inhibited and discouraged.  We are told to keep ourselves in the boxes others, or a past version of ourselves, put us in.  <small>It is a frustrating bit of social conditioning.</small>  
+</p>
+<p>
+For the past year, I have "pretended" to be a web designer and developer.   As a teacher, I've developed a website before, but nothing of the scale or functionality that I was, and am, faced with. I have taken on responsibilities involving responsive and dynamic web design for learning and teaching and faced challenges that were solved purely by determination to find the answer.  Often I would state with confidence I could do a job, simply because I knew it was possible... rarely because I've ever done it.  I've scripted in JavaScript, Python, and Ruby, used PowerShell to configure Chromebooks into our GAFE Admin Dashboard, and I'm working on making a database for this years conference. 
+<div class="well"><h4>If I had listened to anyone telling me:</h4> <ul><li>You shouldn't do that</li><li>You don't know how to</li><li>You're a teacher, that's too technical for you</li></ul><h4>I would have agreed with the social conditioning that I'm not supposed to learn something new.</h4>  Fortunately, I don't like to be told what I am<a href="#f1"><sup>[1]</sup></a>.</p>
+</div>
+<p>
+We all must choose how we live, learn, and act.  When we choose a particular path, we are pretending to be as far along that path as our imagination and other people will allow.  In school, we want kids to pretend they are good students and immagine they are graduates with confidence and skills to continue on their imagined path.  We want them to believe they are so that they will have the drive to work at it and be great.     
+</p>
+<div class="well">
+<h4>The Silver Lining to Vonnegut's quote is that <strong>mindful pretending toward a goal is a great recipe for learning.</strong><a href="#f2"><sup>[2]</sup></a></h4>
+<li><strong>When you pretend to be something you want to be, you need a good cover story.</strong><p>  A good cover story will have all the details necessary to have someone who's a "real" [learner] not be suspicious of you.  A good cover story, is your research.  It's how you determine exactly what you need to know.  You skim it, read it, analise it until you are confident enough to "pretend".  If you don't have enough confidence to play your part, you can't pretend and everyone will insist you are in the wrong place and shouldn't be bothering all these [learners] with their important work. </li>
+<li><strong>When you pretend to be what you want to be, you will enjoy it.</strong>  It's really about leveraging Vonnegut's advice to accomplish what you want.  You want to be a [learner], you pretend long enough, doing exactly what it takes to be a [learner], you will be.  You will be willing to be thorough and reflective because you are learning about how to be the [learner] you want to be. 
+<li><strong></strong>
+
+</li>
+</div>
+<p>The more positive approach to this is the phrase <q>Fake it till you make it!</q>.  Or my favorite, <q>If at first you don't succeed, keep on sucking until you do succeed!</q><cite>-Daffy Duck</cite> </p>
+
+<p id="f1"><small>[1] I often have to tell people what I am.  Don't we all? I remind my wife that I'm easy to live with almost daily.</small></p>
+<p id="f2"><small>[2] This recipe is posted with no guarantee of success or desired results.  Much like a good soufflé, this recipe is affected by ingredients and conditions that may or may not be in the control of the chef (you).   
