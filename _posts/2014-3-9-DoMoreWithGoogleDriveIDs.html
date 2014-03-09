@@ -1,0 +1,34 @@
+---
+title: Do More With Google Drive File URLS 
+layout: post
+---
+<h1>{{ post.title }}</h1>
+<p>
+Ever notice that the URL to a shared file in Google Drive really long?  Often, when I need to share that url with a large group of people at a training or conference, I need to shorten it.  I prefer Bitly.com because I can customize the urls and make QR codes, and get analytics (More on that at a later post). 
+</p><p>
+There is some very useful information in this url. Prominently is the file's identification key.  This is a series of about 44 letters, numbers, and sometimes symbols that help Google keep all the files saved in Drive by everyone separate and to locate your file when you call it.  Think of it like a combination lock where you have the spin the dial 44 times and there are 58+ characters on the dial (letters are case sensitive, so lower and upper case matters).  
+</p>
+<h2>Some things you can do with this key:   </h2>
+<div class="well">
+<h3>Import data from other spreadsheets.</h3> 
+<pre>=importrange("driveKey","sheetName!A1:Z10")</pre> <div class="alert alert-danger">NOTE: Quotation marks are required, Exclamation Point required after the name of the sheet.</div> 
+</div>
+<div class="well"><h3>
+Create a link to download the PDF version of the file on our website.</h3>
+<pre>https://docs.google.com/document/d/documentId/export?format=pdf</pre>
+</div>
+<div class="well"><h3>
+Google Apps Script to retrieve values from a file or append data to a file. </h3>
+<pre> var getSheet = SpreadsheetApp.openById("sheetId")
+</pre>
+<pre>var getDocument = DocumentApp.openById("documentId")</pre></div>
+<div class="well">
+<h3>Insert Images or Video into a website from drive.</h3>
+<pre>img src="http://googledrive.com/host/folderId/imageID"</pre>
+<pre>video src="http://googledrive.com/host/folderId/imageId"
+</pre>
+<div class="alert alert-danger">NOTE: The file must be Shared With "Anyone With a Link" in order for this to work.</div>
+</div>
+<p>
+
+</p> 
