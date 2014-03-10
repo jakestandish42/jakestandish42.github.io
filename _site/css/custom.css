@@ -20,10 +20,10 @@ body {
 .navbar-inverse .navbar-toggle:hover .glyphicon {
 	color; #333;
 }
-.well:hover {
+/* .well:hover {
     background-color: #63D1F4;
     font-weight: bolder;
-}
+} */
 .center{
 	text-align: center;
 }
