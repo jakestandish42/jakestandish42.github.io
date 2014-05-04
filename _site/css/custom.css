@@ -1,6 +1,14 @@
 /* Custom CSS */
 body { 
 	padding-top 70px;
+	background-color: #000;
+	color: #fff;
+}
+a {
+	color: #f48663;
+}
+a:hover {
+	color: #e47653;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	backgroun-color: #fff;
@@ -11,14 +19,14 @@ body {
 	border-color:white;
 }
 .navbar-inverse .navbar-toggle:hover{
-	background-color: #eee;
-	color: #333;
+	background-color: #111;
+	color: #eee;
 }
 .navbar-inverse .navbar-toggle .glyphicon {
 	color:white;
 }
 .navbar-inverse .navbar-toggle:hover .glyphicon {
-	color; #333;
+	color; #eee;
 }
 /* .well:hover {
     background-color: #63D1F4;
@@ -40,3 +48,37 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 }
+.grad{
+	background: -webkit-linear-gradient(#000066, #0000ff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#000066, #0000ff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#000066, #0000ff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#000066, #0000ff); /* Standard syntax */
+}
+.well {
+	background-color: #000066;
+}
+.table {
+	background-color: #000066;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #000088;
+ }
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #000066;
+ }
+.jumbotron{
+	background-color: #000066;
+}
+pre {
+	background-color: #000066;
+	color: #fff;
+}
+/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #000088;
+} *?
+.jumbotron {
+	background-color:#000066;
+}
+
