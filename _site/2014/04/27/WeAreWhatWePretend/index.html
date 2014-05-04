@@ -46,13 +46,9 @@ ript>
 	<h2><small>Jake Standish </small>Blog About Learning and Technology<h2>
 </div>
  
-		<h2><a href=""></a></h2>
+		<h2><a href="">We Are What We Pretend To Be</a></h2>
 		<div>
-    		<div class="container-fluid">
-<div class="container-responsive">
- 
-		<h2><a href="/2014/04/27/WeAreWhatWePretend/">We Are What We Pretend To Be</a></h2>
-      	<p> <h1></h1>
+    		<h1></h1>
 <blockquote cite="http://www.goodreads.com/quotes/13719-we-are-what-we-pretend-to-be-so-we-must#">We are what we pretend to be, so we must be careful about what we pretend to be.<footer>Kurt Vonnegut</footer></blockquote>
 <p>
 This advice has been in my head a lot lately.  It is a lesson I'm learning on a personal level as well as professionally.  As an adult, the concept of pretending is often dramatically inhibited and discouraged.  We are told to keep ourselves in the boxes others, or a past version of ourselves, put us in.  “Stay in your lane” is an expression I hear get used a lot in education. <small>It is a frustrating bit of social conditioning.</small>  
@@ -75,106 +71,6 @@ We all must choose how we live, learn, and act.  When we choose a particular pat
 
 <p id="f1"><small>[1] I often have to tell people what I am.  Don't we all? I remind my wife that I'm easy to live with almost daily.</small></p>
 <p id="f2"><small>[2] This recipe is posted with no guarantee of success or desired results.  Much like a good soufflé, this recipe is affected by ingredients and conditions that may or may not be in the control of the chef (you).   
-
-</p>
-      	<br>
-      	<hr>
-      	<br>
-  
-		<h2><a href="/2014/03/09/DoMoreWithGoogleDriveIDs/">Do More With Google Drive File URLS</a></h2>
-      	<p> <h1></h1>
-<p>
-Ever notice that the URL to a shared file in Google Drive really long?  Often, when I need to share that url with a large group of people at a training or conference, I need to shorten it.  I prefer Bitly.com because I can customize the urls and make QR codes, and get analytics (More on that at a later post). 
-</p><p>
-There is some very useful information in this url. Prominently is the file's identification key.  This is a series of about 44 letters, numbers, and sometimes symbols that help Google keep all the files saved in Drive by everyone separate and to locate your file when you call it.  Think of it like a combination lock where you have the spin the dial 44 times and there are 58+ characters on the dial (letters are case sensitive, so lower and upper case matters).  
-</p>
-<h4>Example URL of am image file saved in Google Drive</h4>
-<pre>https://drive.google.com/#folders/<strong>0Bxriiaw-6rI1TU1rN3FmR1EtZHc <br>
-fileID=0Bxriiaw-6rI1TU1rN3FmR1EtZHc</strong></pre>
-<br>
-<h4>Example URL of a document file saved in Google Drive</h4>
-<pre>https://docs.google.com/document/d/<strong>1PYB_miC9xfaC-16xY-47kAKnTkzGHGV1mCM_xNxBpTI<br>
-docID=1PYB_miC9xfaC-16xY-47kAKnTkzGHGV1mCM_xNxBpTI</strong></pre>
-<br>
-<h4>Example URL of a spreadsheet file saved in Google Drive</h4>
-<p><i>Notice how after the ID the #gid=0 tells you it will open the first sheet in the spreadsheet.  #gid=1 would open the 2nd and so on.</i></p>
-<pre>https://docs.google.com/spreadsheet/ccc?key=<strong>0Ahriiaw-6rI1dHU3VW1nX2EtcjB6MFpEZlo4Q0pNZ0E#gid=0<br>
-spreadsheetID=0Ahriiaw-6rI1dHU3VW1nX2EtcjB6MFpEZlo4Q0pNZ0E</strong></pre>
-<br><hr><br>
-
-<h2>Some things you can do with this key:   </h2>
-<div class="well">
-<h3>Import data from other spreadsheets.</h3> 
-<pre>=importrange("driveKey","sheetName!A1:Z10")</pre> <div class="alert alert-danger">NOTE: Quotation marks are required, Exclamation Point required after the name of the sheet.</div> 
-</div>
-<div class="well"><h3>
-Create a link to download the PDF version of the file on our website.</h3>
-<pre>https://docs.google.com/document/d/documentId/export?format=pdf</pre>
-</div>
-<div class="well"><h3>
-Google Apps Script to retrieve values from a file or append data to a file. </h3>
-<pre> var getSheet = SpreadsheetApp.openById("sheetId")
-</pre>
-<pre>var getDocument = DocumentApp.openById("documentId")</pre></div>
-<div class="well">
-<h3>Insert Images or Video into a website from drive.</h3>
-<pre>img src="http://googledrive.com/host/folderId/imageID"</pre>
-<pre>video src="http://googledrive.com/host/folderId/imageId"
-</pre>
-<div class="alert alert-danger">NOTE: The file must be Shared With "Anyone With a Link" in order for this to work.</div>
-</div>
-<p>
-
-</p> 
-
-</p>
-      	<br>
-      	<hr>
-      	<br>
-  
-		<h2><a href="/2014/02/15/LearnedHelplessnessIsAChoiceOnceYouRecognizeIt/">Learned Helplessness Is A Choice Once You Recognize It</a></h2>
-      	<p> <h1></h1>
-<p>
-Anyone faced with a seemingly insurmountable challenge has a choice, face the challenge with an equally naive optimism or simply give up.  
-The latter, has been found to be the common condition of most animals in psychological tests.  
-This concept of learned helplessness was articulated by Martin Seligman in 1965.  
-Seligman is famous for shocking dogs in cages.  
-Initially the cages were divided in half so the dog was forced to stay on the side where the plates were that delivered the shocks.
-Over time, the middle wall was removed providing a way out for the dog to escape the shocks.  
-Seligman discovered is that the dog <i> never got out of harms way.</i> 
-The dog had learned that the shocks were unavoidable and, as a result, gave up trying to avoid them.  
-</p>
-
-<!—-more-->
-
-<p>
-There is a lesson to be learned here in how we approach learning, educational programs, and social and political activities.  
-I don't think there is much need to elaborate on the sort of lessons we can learn from helplessness, just realize that when someone says that "I can't..." or "I'm not good at..." or any variant, it's because they got "shocked" too many times by someone or something that eventually told them to give up.    
-</p>
-<p>
-The better thing to consider from the lessons learned from torturing dogs fifty years ago is that it is possible to realize this behavior exists in all of us and we can choose to think differently. 
-We can choose the naive optimism and battle the "I can't" that comes natural.  
-It is a challenge.
-It is hard.  
-It will take practice.  
-<strong>It is learning</strong>.
-</p>
-<p>
-Read more about learned helplessness and listen to David McRaney's podcast <a href="http://youarenotsosmart.com/2009/11/11/learned-helplessness/" target="_blank">HERE</a>.
-</p>
-<quote>"The defining characteristic of pessimists is that they tend to believe that bad events will last a long time, will undermine everything they do, and are their own fault. The optimists, who are confronted with the same hard knocks of this world, think about misfortune in the opposite way. They tend to believe that defeat is just a temporary setback or a challenge, that its causes are just confined to this one case." - Martin Seligman, Learned Optimism, 1991.</quote>
-
-</p>
-      	<br>
-      	<hr>
-      	<br>
-  
-
-</div>
-</div>
-
-
-
   		</div>
   	</div>
 
