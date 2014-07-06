@@ -1,10 +1,12 @@
 ---
-tags: ['']
+tags: ['null']
 title: The 4 C's are better with Convergence
 category: ''
 description: null
 layout: post
 ---
+
+
 
 
 If there is one trend found in developers conferences this spring, it's convergence. In the technology context, convergence is the idea of no matter the device, your user experience is the same.  
@@ -19,6 +21,10 @@ Add to that the announcement of Classroom, and teachers now will see a convergen
 
 <h2>What does this mean for learning? </h2>
 Now that the interface, how you interact with the technology, has achieved uniformity and simplicity, the user is able to just get to doing. They don't need training on how to be a user, they simply use the technology to communicate, creatively, critically, collaboratively. 
+
+
+
+
 
 
 
